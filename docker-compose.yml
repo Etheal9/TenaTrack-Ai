@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - firestore-emulator
+    restart: unless-stopped
+
+  firestore-emulator:
+    image: google/cloud-sdk:latest
+    command: gcloud beta emulators firestore start --host-port=0.0.0.0:8080
+    ports:
+      - "8080:8080"
+    volumes:
+      - firestore-data:/home/fsdata
+
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000
+    depends_on:
+      - app
+    command: ["npm", "start"]
+
+volumes:
+  firestore-data:
