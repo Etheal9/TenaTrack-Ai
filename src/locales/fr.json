@@ -1,0 +1,25 @@
+{
+  "appTitle": "Évaluation des Symptômes par IA",
+  "symptomInput": {
+    "title": "Décrivez Vos Symptômes",
+    "placeholder": "Entrez vos symptômes ici ou utilisez la saisie vocale...",
+    "voiceButton": "Démarrer la Saisie Vocale",
+    "submitButton": "Obtenir l'Évaluation",
+    "analyzing": "Analyse en cours..."
+  },
+  "assessment": {
+    "title": "Résultats de l'Évaluation",
+    "conditions": "Conditions Possibles:",
+    "urgency": "Urgence:",
+    "actions": "Actions Recommandées:",
+    "seekHelp": "Quand Chercher de l'Aide:",
+    "error": "Échec de l'évaluation"
+  },
+  "history": {
+    "title": "Votre Historique d'Évaluations",
+    "loading": "Chargement de votre historique...",
+    "empty": "Aucune évaluation précédente trouvée",
+    "symptoms": "Symptômes:",
+    "assessmentTitle": "Évaluation"
+  }
+}

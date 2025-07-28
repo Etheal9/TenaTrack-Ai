@@ -1,0 +1,25 @@
+{
+  "appTitle": "Healthcare AI Symptom Assessment",
+  "symptomInput": {
+    "title": "Describe Your Symptoms",
+    "placeholder": "Enter your symptoms here or use voice input...",
+    "voiceButton": "Start Voice Input",
+    "submitButton": "Get Assessment",
+    "analyzing": "Analyzing..."
+  },
+  "assessment": {
+    "title": "Assessment Results",
+    "conditions": "Possible Conditions:",
+    "urgency": "Urgency:",
+    "actions": "Recommended Actions:",
+    "seekHelp": "When to Seek Help:",
+    "error": "Failed to get assessment"
+  },
+  "history": {
+    "title": "Your Triage History",
+    "loading": "Loading your history...",
+    "empty": "No past assessments found",
+    "symptoms": "Symptoms:",
+    "assessmentTitle": "Assessment"
+  }
+}

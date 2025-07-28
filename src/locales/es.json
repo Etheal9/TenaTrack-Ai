@@ -1,0 +1,25 @@
+{
+  "appTitle": "Evaluación de Síntomas con IA",
+  "symptomInput": {
+    "title": "Describa Sus Síntomas",
+    "placeholder": "Ingrese sus síntomas aquí o use entrada de voz...",
+    "voiceButton": "Iniciar Entrada de Voz",
+    "submitButton": "Obtener Evaluación",
+    "analyzing": "Analizando..."
+  },
+  "assessment": {
+    "title": "Resultados de la Evaluación",
+    "conditions": "Posibles Condiciones:",
+    "urgency": "Urgencia:",
+    "actions": "Acciones Recomendadas:",
+    "seekHelp": "Cuándo Buscar Ayuda:",
+    "error": "Error al obtener evaluación"
+  },
+  "history": {
+    "title": "Su Historial de Evaluaciones",
+    "loading": "Cargando su historial...",
+    "empty": "No se encontraron evaluaciones previas",
+    "symptoms": "Síntomas:",
+    "assessmentTitle": "Evaluación"
+  }
+}

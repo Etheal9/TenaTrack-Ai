@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.symptom-input {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.symptom-input textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.input-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.symptom-input button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.symptom-input button.recording {
+  background: #f44336;
+}
+
+.symptom-input button:disabled {
+  background: #cccccc;
+}
+
+.response {
+  margin-top: 20px;
+  text-align: left;
+  padding: 15px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.error {
+  color: #ff4444;
+}
+
+.history-dashboard {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.session-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.session-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.assessment-summary {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.sessions-list {
+  display: grid;
+  gap: 15px;
+}
